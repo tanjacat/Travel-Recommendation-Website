@@ -7,12 +7,13 @@
         "cities": [
           {
             "name": "Sydney, Australia",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sydney_Opera_House_-_Dec_2008.jpg",
-            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+            "imageUrl": "https://st2.depositphotos.com/1044234/6789/i/600/depositphotos_67890955-stock-photo-view-of-sydney-harbour.jpg",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge.",
+            "timezone": "Australia/Sydney"
           },
           {
             "name": "Melbourne, Australia",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Melbourne_skyline_-_Dec_2008.jpg",
+            "imageUrl": "https://st2.depositphotos.com/6042184/9679/i/600/depositphotos_96792686-stock-photo-view-of-melbourne-skyline-at.jpg",
             "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
           }
         ]
@@ -23,12 +24,12 @@
         "cities": [
           {
             "name": "Tokyo, Japan",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Tokyo_Tower_and_around_Skyscrapers.jpg",
+            "imageUrl": "https://st.depositphotos.com/1062377/3824/i/600/depositphotos_38247527-stock-photo-various-travel-destination-in-japan.jpg",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
             "name": "Kyoto, Japan",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Kiyomizu-dera_in_Kyoto_06-2016_img3.jpg",
+            "imageUrl": "https://st5.depositphotos.com/1980693/69499/i/600/depositphotos_694990180-stock-photo-kiyomizu-dera-templein-kyoto-japan.jpg",
             "description": "Known for its historic temples, gardens, and traditional tea houses."
           }
         ]
@@ -39,12 +40,12 @@
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rio_de_Janeiro_-_Rafael_Defavari_2014_02.jpg",
+            "imageUrl": "https://st4.depositphotos.com/2801443/23627/i/600/depositphotos_236273866-stock-photo-aerial-view-christ-redeemer-sugarloaf.jpg",
             "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
           },
           {
             "name": "São Paulo, Brazil",
-            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/S%C3%A3o_Paulo_Skyline_2014.jpg",
+            "imageUrl": "https://st5.depositphotos.com/2169563/61798/i/600/depositphotos_617986772-stock-photo-octavio-frias-oliveira-bridge-sao.jpg",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
@@ -54,7 +55,7 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Angkor_Wat_temple.jpg",
+        "imageUrl": "https://st.depositphotos.com/1007970/1242/i/600/depositphotos_12420435-stock-photo-angkor-wat-siem-reap-cambodia.jpg",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
@@ -68,13 +69,13 @@
       {
         "id": 1,
         "name": "Bora Bora, French Polynesia",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Bora_Bora_lagoon_view.jpg",
+        "imageUrl": "https://st.depositphotos.com/1001001/1273/i/600/depositphotos_12732797-stock-photo-bora-bora-landscape.jpg",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
       {
         "id": 2,
         "name": "Copacabana Beach, Brazil",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Copacabana_Beach_Rio_de_Janeiro_3.jpg",
+        "imageUrl": "https://st3.depositphotos.com/1328449/14265/i/600/depositphotos_142651405-stock-photo-panoramic-view-copacabana-beach-city.jpg",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
     ]
