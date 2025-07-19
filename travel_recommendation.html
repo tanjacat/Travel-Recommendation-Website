@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Travel Recommendation Website</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav input[type="text"] {
+      padding: 5px;
+      border-radius: 4px;
+      border: none;
+      flex-grow: 1;
+      max-width: 300px;
+      min-width: 150px;
+    }
+    nav button {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #intro {
+      padding: 40px;
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: rgba(0,0,0,0.5);
+      border-radius: 10px;
+      text-align: center;
+    }
+    .social-icons {
+      margin: 20px 0 40px 0;
+      text-align: center;
+    }
+    .social-icons a {
+      margin: 0 12px;
+      color: white;
+      font-size: 28px;
+      text-decoration: none;
+    }
+    #results {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 0 auto 40px auto;
+      max-width: 900px;
+      border-radius: 10px;
+      min-height: 150px;
+    }
+    .recommendation {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 15px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    .recommendation img {
+      max-width: 150px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .recommendation div {
+      max-width: 700px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="travel_recommendation.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <input type="text" id="searchInput" placeholder="Search recommendations..." />
+    <button id="searchBtn">Search</button>
+    <button id="clearBtn">Clear</button>
+  </nav>
+
+  <div id="intro">
+    <h1>Welcome to Travel Recommendation Website</h1>
+    <p>Find the best places to visit including beaches, temples, and cities worldwide. Use the search to get personalized recommendations!</p>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+  <div id="results"></div>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
